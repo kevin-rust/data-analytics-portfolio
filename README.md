@@ -21,11 +21,15 @@ Analyzed retail transaction data to identify high-value customers and evaluate r
 
 View project: https://github.com/kevin-rust/customer-segmentation-analysis
 
-### Data Cleaning & Exploratory Analysis (Python)
-**Tools:** Python, pandas, Matplotlib  
-- Data quality assessment and exploratory analysis on raw datasets.
+### Customer Churn Prediction (Python, scikit-learn)
+**Tools:** Python, pandas, scikit-learn, matplotlib  
+Built a logistic regression model to predict customer churn using a telecommunications dataset.
+- Cleaned and preprocessed 7,000+ customer records
+- Engineered features and encoded categorical variables
+- Scaled numerical variables to improve model convergence
+- Achieved ~79% accuracy with 52% recall on churners
+- Identified key churn drivers including tenure, contract length, and fiber service usage
 
-*(Coming soon)*
-
+View project: https://github.com/kevin-rust/customer-churn-prediction
 
 Each project includes a README outlining the business problem, approach, and key insights.
